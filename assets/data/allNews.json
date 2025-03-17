@@ -1,0 +1,152 @@
+[
+  {
+    "id": "news-1",
+    "title": "Breaking News: React 19 is Officially Released with Major Updates and New Features",
+    "body": "## Introduction\n\nReact 19 has just been released, and it\\'s packed with powerful updates that promise to make building modern web applications easier and more efficient than ever before. This latest version introduces several long-awaited features, improvements, and optimizations to enhance performance, developer experience, and overall flexibility. Let\\'s dive into some of the most exciting changes in **React 19**.\n\n## New Features and Enhancements\n\n### 1. React Server Components\n\nOne of the most exciting new features in React 19 is **React Server Components**. This feature allows developers to offload the rendering of certain components to the server, which helps to speed up the initial page load and improve performance. By rendering server-side content as streams, React 19 allows for more efficient and faster data fetching and rendering, especially for large and complex applications. With React Server Components, it\\'s now possible to write even more dynamic and interactive UIs that can fetch data and render on the server, reducing client-side load.\n\n### 2. Concurrent Mode Improvements\n\nReact 19 also brings major updates to **Concurrent Mode**, which helps apps stay responsive and smooth even during complex rendering tasks. With these improvements, React is smarter in prioritizing updates to the UI and ensuring smoother transitions between states, especially in interactive applications. This reduces the time the user has to wait for an app to react to input, thus improving the overall user experience.\n\n### 3. Better Error Boundaries\n\nError boundaries have received a major upgrade in React 19. Previously, handling errors in React was a bit tricky, especially when errors occurred in deeply nested components. Now, React 19 makes it easier to catch and handle errors in specific parts of your component tree using a more intuitive error boundary API. This makes debugging and preventing crashes a lot easier.\n\n### 4. Improved TypeScript Support\n\nTypeScript continues to grow in popularity among React developers, and React 19 has made improvements to its TypeScript support. The new updates ensure better type inference, improved types for hooks, and a smoother development experience for TypeScript users. If you\\'re working with TypeScript, React 19 will make your codebase more robust and easier to maintain.\n\n### 5. Performance Optimizations\n\nReact 19 introduces a host of **performance optimizations** that make your applications faster and more efficient. From reduced bundle sizes to more intelligent re-rendering strategies, the updates focus on improving React\\'s core rendering performance, especially for complex applications with large data sets. This ensures that React apps remain fast and responsive, even as they scale.\n\n## Developer Tools Enhancements\n\nReact DevTools have also seen a major update, with new features aimed at improving debugging and profiling. The updated DevTools now offer better support for Concurrent Mode and Suspense, helping developers visualize how React is scheduling and rendering updates. The new profiler tools allow for better tracking of component render times and behavior, making it easier to pinpoint performance bottlenecks.\n\n## Conclusion\n\nReact 19 is shaping up to be a major release, and with its new features, performance improvements, and enhanced developer tools, it\\'s clear that the React team is focused on making development faster, more efficient, and more enjoyable. Whether you\\'re building a new project or upgrading an existing one, React 19 is sure to provide the tools you need to build cutting-edge, high-performance applications.\n\nFor more details on the full release, check out the official [React Blog](https://reactjs.org).",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
+    "created_at": "2025-03-07T02:00:00Z",
+    "author": {
+      "id": "author-1",
+      "name": "Lukas Grinevicius"
+    },
+    "publisher": {
+      "id": "publisher-1",
+      "name": "The Wall Street Journal"
+    }
+  },
+  {
+    "id": "news-2",
+    "title": "Next.js 15 Unveils Revolutionary Server Components with Enhanced Performance and Flexibility",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg",
+    "created_at": "2025-03-07T04:00:00Z",
+    "author": {
+      "id": "author-2",
+      "name": "Vadim Savin"
+    },
+    "publisher": {
+      "id": "publisher-2",
+      "name": "The Times"
+    }
+  },
+  {
+    "id": "news-3",
+    "title": "New Developments in React Native: Exciting Features and Improvements Revealed",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg",
+    "created_at": "2025-03-06T12:00:00Z",
+    "author": {
+      "id": "author-3",
+      "name": "Catalin"
+    },
+    "publisher": {
+      "id": "publisher-3",
+      "name": "BBC News"
+    }
+  },
+  {
+    "id": "news-4",
+    "title": "Expo SDK 50 Released: Unveiling Exciting New Features and Enhanced Developer Experience",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg",
+    "created_at": "2025-03-06T12:00:00Z",
+    "author": {
+      "id": "author-4",
+      "name": "Danil"
+    },
+    "publisher": {
+      "id": "publisher-4",
+      "name": "CNN News"
+    }
+  },
+  {
+    "id": "news-5",
+    "title": "Exploring JavaScript's New Features for 2025: What's New and What to Expect",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/5.jpeg",
+    "created_at": "2025-03-05T02:00:00Z",
+    "author": {
+      "id": "author-5",
+      "name": "Vaiva"
+    },
+    "publisher": {
+      "id": "publisher-5",
+      "name": "WIRED UK"
+    }
+  },
+  {
+    "id": "news-6",
+    "title": "TypeScript 6.0 Announced: Everything You Need to Know About the Latest Features and Enhancements",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/6.jpg",
+    "created_at": "2025-03-04T12:00:00Z",
+    "author": {
+      "id": "author-1",
+      "name": "Lukas Grinevicius"
+    },
+    "publisher": {
+      "id": "publisher-1",
+      "name": "The Athletic"
+    }
+  },
+  {
+    "id": "news-7",
+    "title": "Vite vs Webpack: A Comprehensive Comparison to Help You Choose the Right Tool for Your Projects",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/7.jpeg",
+    "created_at": "2025-03-04T12:00:00Z",
+    "author": {
+      "id": "author-2",
+      "name": "Vadim Savin"
+    },
+    "publisher": {
+      "id": "publisher-2",
+      "name": "The Guardian"
+    }
+  },
+  {
+    "id": "news-8",
+    "title": "Mastering State Management in React: A Deep Dive into Popular Strategies and Best Practices",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/8.jpg",
+    "created_at": "2025-03-03T12:00:00Z",
+    "author": {
+      "id": "author-3",
+      "name": "Catalin"
+    },
+    "publisher": {
+      "id": "publisher-3",
+      "name": "NBC News"
+    }
+  },
+  {
+    "id": "news-9",
+    "title": "Server-Side Rendering in React: Best Practices for Optimizing Performance and SEO",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/9.jpg",
+    "created_at": "2025-03-02T12:00:00Z",
+    "author": {
+      "id": "author-4",
+      "name": "Danil"
+    },
+    "publisher": {
+      "id": "publisher-4",
+      "name": "FOX News"
+    }
+  },
+  {
+    "id": "news-10",
+    "title": "Discover the Newest React UI Libraries to Try in 2025 for Building Stunning Interfaces",
+    "body": "Looong text",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
+    "created_at": "2025-03-02T12:00:00Z",
+    "author": {
+      "id": "author-5",
+      "name": "Vaiva"
+    },
+    "publisher": {
+      "id": "publisher-5",
+      "name": "ESPN"
+    }
+  }
+]

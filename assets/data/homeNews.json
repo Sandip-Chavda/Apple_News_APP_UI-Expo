@@ -1,0 +1,167 @@
+[
+  {
+    "title": "Top Stories",
+    "data": [
+      {
+        "id": "news-1",
+        "title": "Breaking News: React 19 is Officially Released with Major Updates and New Features",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
+        "created_at": "2025-03-07T02:00:00Z",
+        "author": {
+          "id": "author-1",
+          "name": "Lukas Grinevicius"
+        },
+        "publisher": {
+          "id": "publisher-1",
+          "name": "The Wall Street Journal"
+        }
+      },
+      {
+        "id": "news-2",
+        "title": "Next.js 15 Unveils Revolutionary Server Components with Enhanced Performance and Flexibility",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg",
+        "created_at": "2025-03-07T04:00:00Z",
+        "author": {
+          "id": "author-2",
+          "name": "Vadim Savin"
+        },
+        "publisher": {
+          "id": "publisher-2",
+          "name": "The Times"
+        }
+      },
+      {
+        "id": "news-3",
+        "title": "New Developments in React Native: Exciting Features and Improvements Revealed",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg",
+        "created_at": "2025-03-06T12:00:00Z",
+        "author": {
+          "id": "author-3",
+          "name": "Catalin"
+        },
+        "publisher": {
+          "id": "publisher-3",
+          "name": "BBC News"
+        }
+      }
+    ]
+  },
+  {
+    "title": "Trending",
+    "data": [
+      {
+        "id": "news-4",
+        "title": "Expo SDK 50 Released: Unveiling Exciting New Features and Enhanced Developer Experience",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg",
+        "created_at": "2025-03-06T12:00:00Z",
+        "author": {
+          "id": "author-4",
+          "name": "Danil"
+        },
+        "publisher": {
+          "id": "publisher-4",
+          "name": "CNN News"
+        }
+      },
+      {
+        "id": "news-5",
+        "title": "Exploring JavaScript's New Features for 2025: What's New and What to Expect",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/5.jpeg",
+        "created_at": "2025-03-05T02:00:00Z",
+        "author": {
+          "id": "author-5",
+          "name": "Vaiva"
+        },
+        "publisher": {
+          "id": "publisher-5",
+          "name": "WIRED UK"
+        }
+      },
+      {
+        "id": "news-6",
+        "title": "TypeScript 6.0 Announced: Everything You Need to Know About the Latest Features and Enhancements",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/6.jpg",
+        "created_at": "2025-03-04T12:00:00Z",
+        "author": {
+          "id": "author-1",
+          "name": "Lukas Grinevicius"
+        },
+        "publisher": {
+          "id": "publisher-1",
+          "name": "The Athletic"
+        }
+      }
+    ]
+  },
+  {
+    "title": "For You",
+    "data": [
+      {
+        "id": "news-7",
+        "title": "Vite vs Webpack: A Comprehensive Comparison to Help You Choose the Right Tool for Your Projects",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/7.jpeg",
+        "created_at": "2025-03-04T12:00:00Z",
+        "author": {
+          "id": "author-2",
+          "name": "Vadim Savin"
+        },
+        "publisher": {
+          "id": "publisher-2",
+          "name": "The Guardian"
+        }
+      },
+      {
+        "id": "news-8",
+        "title": "Mastering State Management in React: A Deep Dive into Popular Strategies and Best Practices",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/8.jpg",
+        "created_at": "2025-03-03T12:00:00Z",
+        "author": {
+          "id": "author-3",
+          "name": "Catalin"
+        },
+        "publisher": {
+          "id": "publisher-3",
+          "name": "NBC News"
+        }
+      },
+      {
+        "id": "news-9",
+        "title": "Server-Side Rendering in React: Best Practices for Optimizing Performance and SEO",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/9.jpg",
+        "created_at": "2025-03-02T12:00:00Z",
+        "author": {
+          "id": "author-4",
+          "name": "Danil"
+        },
+        "publisher": {
+          "id": "publisher-4",
+          "name": "FOX News"
+        }
+      },
+      {
+        "id": "news-10",
+        "title": "Discover the Newest React UI Libraries to Try in 2025 for Building Stunning Interfaces",
+        "body": "Looong text",
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
+        "created_at": "2025-03-02T12:00:00Z",
+        "author": {
+          "id": "author-5",
+          "name": "Vaiva"
+        },
+        "publisher": {
+          "id": "publisher-5",
+          "name": "ESPN"
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "magazine-9",
+    "title": "Forbes",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/9.jpg",
+    "isFollowing": false
+  },
+  {
+    "id": "magazine-10",
+    "title": "The Independent",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
+    "isFollowing": true
+  },
+  {
+    "id": "magazine-11",
+    "title": "BBC News",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg",
+    "isFollowing": false
+  }
+]

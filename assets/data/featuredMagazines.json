@@ -1,0 +1,26 @@
+[
+  {
+    "id": "magazine-1",
+    "title": "The New York Times",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg",
+    "isFollowing": true
+  },
+  {
+    "id": "magazine-2",
+    "title": "Wired UK",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg",
+    "isFollowing": false
+  },
+  {
+    "id": "magazine-3",
+    "title": "Hello!",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg",
+    "isFollowing": false
+  },
+  {
+    "id": "magazine-4",
+    "title": "NSPN",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg",
+    "isFollowing": true
+  }
+]

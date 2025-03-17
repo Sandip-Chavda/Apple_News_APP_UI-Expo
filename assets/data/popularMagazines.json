@@ -1,0 +1,26 @@
+[
+  {
+    "id": "magazine-5",
+    "title": "The Guardian",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/5.jpeg",
+    "isFollowing": true
+  },
+  {
+    "id": "magazine-6",
+    "title": "National Geographic",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/6.jpg",
+    "isFollowing": false
+  },
+  {
+    "id": "magazine-7",
+    "title": "Vogue",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/7.jpeg",
+    "isFollowing": true
+  },
+  {
+    "id": "magazine-8",
+    "title": "The Times",
+    "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/8.jpg",
+    "isFollowing": true
+  }
+]
