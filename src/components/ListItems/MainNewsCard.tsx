@@ -1,7 +1,15 @@
-import { Image, StyleSheet, Text, View } from "react-native";
+import {
+  Image,
+  Pressable,
+  StyleSheet,
+  Text,
+  TouchableOpacity,
+  View,
+} from "react-native";
 import React from "react";
 import { News } from "@/types/types";
 import NewsListItemFooter from "../NewsListItemFooter";
+import { Link } from "expo-router";
 
 type MainNewsCardProps = {
   newsArticle: News;
@@ -9,37 +17,39 @@ type MainNewsCardProps = {
 
 const MainNewsCard = ({ newsArticle }: MainNewsCardProps) => {
   return (
-    <View
-      style={{
-        backgroundColor: "ghostwhite",
-        marginBottom: 15,
-        borderRadius: 10,
-      }}
-    >
-      <Image
-        source={{ uri: newsArticle.image }}
+    <Link href={`newsArticle/${newsArticle.id}`} asChild>
+      <Pressable
         style={{
-          width: "100%",
-          aspectRatio: 4 / 3,
-          borderTopLeftRadius: 10,
-          borderTopRightRadius: 10,
+          backgroundColor: "ghostwhite",
+          marginBottom: 15,
+          borderRadius: 10,
         }}
-      />
-      <Image
-        source={require("@assets/logo.png")}
-        style={{ width: 50, height: 35 }}
-      />
-      <View style={{ paddingHorizontal: 10, paddingBottom: 5 }}>
-        <Text style={{ fontSize: 17, fontWeight: "bold", marginBottom: 25 }}>
-          {newsArticle.title}
-        </Text>
-
-        <NewsListItemFooter
-          author={newsArticle.author}
-          publishedDate={newsArticle.created_at}
+      >
+        <Image
+          source={{ uri: newsArticle.image }}
+          style={{
+            width: "100%",
+            aspectRatio: 4 / 3,
+            borderTopLeftRadius: 10,
+            borderTopRightRadius: 10,
+          }}
         />
-      </View>
-    </View>
+        <Image
+          source={require("@assets/logo.png")}
+          style={{ width: 50, height: 35 }}
+        />
+        <View style={{ paddingHorizontal: 10, paddingBottom: 5 }}>
+          <Text style={{ fontSize: 17, fontWeight: "bold", marginBottom: 25 }}>
+            {newsArticle.title}
+          </Text>
+
+          <NewsListItemFooter
+            author={newsArticle.author}
+            publishedDate={newsArticle.created_at}
+          />
+        </View>
+      </Pressable>
+    </Link>
   );
 };
 

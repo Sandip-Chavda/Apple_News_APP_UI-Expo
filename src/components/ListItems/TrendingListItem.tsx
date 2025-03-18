@@ -1,7 +1,8 @@
-import { Image, StyleSheet, Text, View } from "react-native";
+import { Image, Pressable, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { News } from "@/types/types";
 import NewsListItemFooter from "../NewsListItemFooter";
+import { Link } from "expo-router";
 
 type TrendingListItemProps = {
   newsArticle: News;
@@ -53,38 +54,40 @@ const TrendingListItem = ({ newsArticle, index }: TrendingListItemProps) => {
     //   </View>
     // </View>
 
-    <View style={{}}>
-      <View
-        style={{
-          flexDirection: "row",
-          marginBottom: 20,
-          gap: 15,
-          backgroundColor: "ghostwhite",
-          borderRadius: 10,
-          padding: 10,
-        }}
-      >
-        <View style={styles.bubbleContainer}>
-          <Text style={styles.bubleTitle}>#{index + 1}</Text>
-        </View>
-        <View style={styles.textContainer}>
-          <View style={{ gap: 5 }}>
-            <Image
-              source={require("@assets/logo.png")}
-              style={{ width: 50, height: 30 }}
-              resizeMode="contain"
-            />
-            <Text style={{ fontSize: 17, fontWeight: "bold" }}>
-              {newsArticle.title}
-            </Text>
+    <Link href={`newsArticle/${newsArticle.id}`} asChild>
+      <Pressable style={{}}>
+        <View
+          style={{
+            flexDirection: "row",
+            marginBottom: 20,
+            gap: 15,
+            backgroundColor: "ghostwhite",
+            borderRadius: 10,
+            padding: 10,
+          }}
+        >
+          <View style={styles.bubbleContainer}>
+            <Text style={styles.bubleTitle}>#{index + 1}</Text>
           </View>
-          <NewsListItemFooter
-            publishedDate={newsArticle.created_at}
-            author={newsArticle.author}
-          />
+          <View style={styles.textContainer}>
+            <View style={{ gap: 5 }}>
+              <Image
+                source={require("@assets/logo.png")}
+                style={{ width: 50, height: 30 }}
+                resizeMode="contain"
+              />
+              <Text style={{ fontSize: 17, fontWeight: "bold" }}>
+                {newsArticle.title}
+              </Text>
+            </View>
+            <NewsListItemFooter
+              publishedDate={newsArticle.created_at}
+              author={newsArticle.author}
+            />
+          </View>
         </View>
-      </View>
-    </View>
+      </Pressable>
+    </Link>
   );
 };
 
