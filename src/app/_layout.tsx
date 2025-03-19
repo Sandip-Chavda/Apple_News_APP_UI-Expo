@@ -14,12 +14,30 @@ const RootLayout = () => {
           options={{
             headerShown: false,
             headerLeft: () => (
-              <Ionicons
-                size={24}
-                name="chevron-back"
-                color="#00a6fb"
-                onPress={() => router.back()}
-              />
+              <View style={{ marginRight: 10 }}>
+                <Ionicons
+                  size={24}
+                  name="chevron-back"
+                  color="#00a6fb"
+                  onPress={() => router.back()}
+                />
+              </View>
+            ),
+          }}
+        />
+        <Stack.Screen
+          name="sportsNewsArticle/[id]"
+          options={{
+            headerShown: false,
+            headerLeft: () => (
+              <View style={{ marginRight: 10 }}>
+                <Ionicons
+                  size={24}
+                  name="chevron-back"
+                  color="#00a6fb"
+                  onPress={() => router.back()}
+                />
+              </View>
             ),
           }}
         />
