@@ -1,0 +1,107 @@
+[
+  {
+    "sportType": "Cricket",
+    "date": "18-03-2025",
+    "status": "Completed",
+    "sportIcon": "https://e7.pngegg.com/pngimages/642/3/png-clipart-cricket-bat-cricket-ball-batting-baseball-sports-baseball-vector-thumbnail.png",
+    "teams": [
+      {
+        "name": "India",
+        "score": "310/8 (50 ov)",
+        "flag": "https://e7.pngegg.com/pngimages/444/539/png-clipart-india-flag-illustration-flag-of-india-indian-independence-movement-national-flag-india-flag-india-thumbnail.png"
+      },
+      {
+        "name": "Australia",
+        "score": "230/9 (50 ov)",
+        "flag": "https://e7.pngegg.com/pngimages/646/830/png-clipart-australia-flag-others-blue-flag-thumbnail.png"
+      }
+    ],
+    "series": "ODI Series",
+    "venue": "Wankhede Stadium",
+    "result": "India won by 80 runs"
+  },
+  {
+    "sportType": "Cricket",
+    "date": "24-03-2025",
+    "status": "Completed",
+    "sportIcon": "https://e7.pngegg.com/pngimages/642/3/png-clipart-cricket-bat-cricket-ball-batting-baseball-sports-baseball-vector-thumbnail.png",
+    "teams": [
+      {
+        "name": "England",
+        "score": "170/6 (45.2 ov)",
+        "flag": "https://e7.pngegg.com/pngimages/696/612/png-clipart-new-england-flag-flag-of-england-flag-of-the-united-kingdom-england-flag-logo-thumbnail.png"
+      },
+      {
+        "name": "West Indies",
+        "score": "165 (44.5 ov)",
+        "flag": "https://e7.pngegg.com/pngimages/581/234/png-clipart-british-west-indies-west-indies-cricket-team-west-indies-a-cricket-team-flag-of-the-west-indies-federation-virat-kohli-miscellaneous-flag-thumbnail.png"
+      }
+    ],
+    "series": "T20 World Cup",
+    "venue": "Melbourne Cricket Ground",
+    "result": "England won by 5 runs"
+  },
+  {
+    "sportType": "Football",
+    "date": "18-03-2025",
+    "status": "Completed",
+    "sportIcon": "https://e7.pngegg.com/pngimages/973/78/png-clipart-football-player-football-players-soccer-player-logo-purple-violet-thumbnail.png",
+    "teams": [
+      {
+        "name": "Real Madrid",
+        "score": "2",
+        "flag": "https://e1.pngegg.com/pngimages/565/268/png-clipart-real-madrid-logo-real-madrid-logo-thumbnail.png"
+      },
+      {
+        "name": "Barcelona",
+        "score": "1",
+        "flag": "https://e7.pngegg.com/pngimages/59/955/png-clipart-f-c-barcelona-logo-fc-barcelona-handbol-uefa-champions-league-la-liga-fc-barcelona-logo-text-logo-thumbnail.png"
+      }
+    ],
+    "series": "La Liga",
+    "venue": "N/A",
+    "result": "Real Madrid won"
+  },
+  {
+    "sportType": "Football",
+    "date": "24-03-2025",
+    "status": "Completed",
+    "sportIcon": "https://e7.pngegg.com/pngimages/973/78/png-clipart-football-player-football-players-soccer-player-logo-purple-violet-thumbnail.png",
+    "teams": [
+      {
+        "name": "Manchester United",
+        "score": "3",
+        "flag": "https://e7.pngegg.com/pngimages/503/126/png-clipart-old-trafford-manchester-united-f-c-2016-17-premier-league-2014-15-premier-league-logo-manchester-united-logo-manchester-united-logo-text-team-thumbnail.png"
+      },
+      {
+        "name": "Liverpool",
+        "score": "2",
+        "flag": "https://e7.pngegg.com/pngimages/346/519/png-clipart-liverpool-football-club-logo-liverpool-f-c-reserves-and-academy-anfield-english-football-league-uefa-champions-league-liverpool-logo-food-text-thumbnail.png"
+      }
+    ],
+    "series": "Premier League",
+    "venue": "N/A",
+    "result": "Manchester United won"
+  },
+  {
+    "sportType": "Basketball",
+    "date": "25-11-2023",
+    "status": "Completed",
+    "sportIcon": "https://e7.pngegg.com/pngimages/770/723/png-clipart-basketball-backboard-graphy-basketball-basketball-sport-orange-thumbnail.png",
+    "teams": [
+      {
+        "name": "Lakers",
+        "score": "112",
+        "flag": "https://e7.pngegg.com/pngimages/386/146/png-clipart-los-angeles-lakers-logo-los-angeles-lakers-nba-utah-jazz-san-antonio-spurs-logo-cleveland-cavaliers-text-desktop-wallpaper-thumbnail.png"
+      },
+      {
+        "name": "Chicago Bulls",
+        "score": "98",
+        "flag": "https://e7.pngegg.com/pngimages/95/548/png-clipart-chicago-bulls-logo-chicago-bulls-nba-detroit-pistons-orlando-magic-dallas-mavericks-red-bull-logo-head-thumbnail.png"
+      }
+    ],
+    "series": "NBA",
+    "venue": "N/A",
+    "result": "Lakers won"
+  }
+]

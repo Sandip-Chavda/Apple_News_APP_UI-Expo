@@ -1,4 +1,4 @@
-import { SectionList, StyleSheet, Text, View } from "react-native";
+import { Image, SectionList, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { StatusBar } from "expo-status-bar";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -101,13 +101,28 @@ const SportsScreen = () => {
               paddingTop: 18,
             }}
           >
-            <Text style={{ fontSize: 27, fontWeight: "bold", color: "gray" }}>
-              {date.toLocaleString("default", {
-                day: "2-digit",
-                month: "short",
-                year: "numeric",
-              })}
-            </Text>
+            <View style={{ flexDirection: "row", alignItems: "center" }}>
+              <View>
+                <Image
+                  source={require("@assets/SportsLogo.png")}
+                  style={{ width: 40, height: 40 }}
+                />
+              </View>
+              <View>
+                <Text style={{ fontWeight: "bold", color: "#00a6fb" }}>
+                  Sports
+                </Text>
+                <Text
+                  style={{ fontSize: 16, fontWeight: "bold", color: "gray" }}
+                >
+                  {date.toLocaleString("default", {
+                    day: "2-digit",
+                    month: "short",
+                    year: "numeric",
+                  })}
+                </Text>
+              </View>
+            </View>
             <View
               style={{
                 flexDirection: "row",

@@ -1,7 +1,7 @@
 import { Image, ScrollView, StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { StatusBar } from "expo-status-bar";
-import { Stack, useLocalSearchParams } from "expo-router";
+import { router, Stack, useLocalSearchParams } from "expo-router";
 import AllSportsNews from "@assets/data/sports/allSportsNews.json";
 import Markdown from "react-native-markdown-display";
 import { format } from "date-fns";
@@ -37,12 +37,23 @@ const SportsDetailedArticle = () => {
         // paddingHorizontal: 15,
         // paddingBottom: 50,
       }}
+      showsVerticalScrollIndicator={false}
     >
       <Stack.Screen
         name="sportsNewsArticle/[id]"
         options={{
           headerShown: true,
           title: publisher.name,
+          // headerLeft: () => (
+          //   <View style={{ marginRight: 10 }}>
+          //     <Ionicons
+          //       size={24}
+          //       name="chevron-back"
+          //       color="#00a6fb"
+          //       onPress={() => router.back()}
+          //     />
+          //   </View>
+          // ),
           headerRight: () => (
             <View
               style={{ flexDirection: "row", alignItems: "center", gap: 8 }}

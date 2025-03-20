@@ -11,35 +11,19 @@ const RootLayout = () => {
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen
           name="newsArticle/[id]"
-          options={{
-            headerShown: false,
-            headerLeft: () => (
-              <View style={{ marginRight: 10 }}>
-                <Ionicons
-                  size={24}
-                  name="chevron-back"
-                  color="#00a6fb"
-                  onPress={() => router.back()}
-                />
-              </View>
-            ),
-          }}
+          options={
+            {
+              // headerShown: false,
+            }
+          }
         />
         <Stack.Screen
           name="sportsNewsArticle/[id]"
-          options={{
-            headerShown: false,
-            headerLeft: () => (
-              <View style={{ marginRight: 10 }}>
-                <Ionicons
-                  size={24}
-                  name="chevron-back"
-                  color="#00a6fb"
-                  onPress={() => router.back()}
-                />
-              </View>
-            ),
-          }}
+          options={
+            {
+              // headerShown: false,
+            }
+          }
         />
       </Stack>
     </PaperProvider>

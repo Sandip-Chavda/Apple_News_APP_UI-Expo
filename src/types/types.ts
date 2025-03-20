@@ -24,3 +24,20 @@ export type Magazine = {
   image: string;
   isFollowing: boolean;
 };
+
+export type Team = {
+  name: string;
+  score: string;
+  flag: string;
+};
+
+export type SportData = {
+  sportType: string;
+  date: string;
+  status: string;
+  sportIcon: string;
+  teams: Team[];
+  series: string;
+  venue: string;
+  result: string;
+};
