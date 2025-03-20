@@ -41,3 +41,24 @@ export type SportData = {
   venue: string;
   result: string;
 };
+
+export type Audio = {
+  id: string;
+  title: string;
+  body: string;
+  image: string;
+  created_at: string;
+  audio_duration: string;
+  author: Author;
+  publisher: Publisher;
+};
+
+export type Music = {
+  id: string;
+  image: string;
+  title: string;
+  description: string;
+  duration: string;
+  category: string;
+  bookmark: boolean;
+};

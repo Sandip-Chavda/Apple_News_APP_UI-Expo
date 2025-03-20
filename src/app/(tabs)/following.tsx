@@ -4,7 +4,7 @@ import React from "react";
 const FollowingScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.Krishiv}>Following</Text>
+      <Text style={styles.Krishiv}>Krishiv</Text>
     </View>
   );
 };

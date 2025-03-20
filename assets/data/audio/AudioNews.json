@@ -1,0 +1,98 @@
+[
+  {
+    "id": "news-1",
+    "title": "AI Revolution: OpenAI Introduces GPT-5 with Groundbreaking Capabilities",
+    "body": "OpenAI has officially announced GPT-5, the latest evolution in artificial intelligence. This model offers enhanced reasoning, improved language understanding, and advanced contextual accuracy, pushing the boundaries of AI in various industries.",
+    "image": "https://images.unsplash.com/photo-1674027444484-cf52149ea050?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fENoYXRncHR8ZW58MHx8MHx8fDA%3D",
+    "created_at": "2025-03-18T10:00:00Z",
+    "audio_duration": "12 mins 45 secs",
+    "author": {
+      "id": "author-1",
+      "name": "Sophia Reynolds"
+    },
+    "publisher": {
+      "id": "publisher-1",
+      "name": "Tech Insider"
+    }
+  },
+  {
+    "id": "news-2",
+    "title": "Quantum Computing Breakthrough: Researchers Achieve Unprecedented Speed",
+    "body": "A team of researchers has achieved a major breakthrough in quantum computing, developing a system that processes data at speeds previously considered impossible. This advancement could revolutionize fields such as cryptography and AI.",
+    "image": "https://plus.unsplash.com/premium_photo-1700942979302-72ef87e43525?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fFF1YW50dW0lMjBDb21wdXRpbmd8ZW58MHx8MHx8fDA%3D",
+    "created_at": "2025-03-17T14:30:00Z",
+    "audio_duration": "8 mins 20 secs",
+    "author": {
+      "id": "author-2",
+      "name": "James Carter"
+    },
+    "publisher": {
+      "id": "publisher-2",
+      "name": "Science Daily"
+    }
+  },
+  {
+    "id": "news-3",
+    "title": "Meta Launches Horizon 3.0: The Future of Virtual Reality, Will This be future proof.",
+    "body": "Meta has unveiled Horizon 3.0, a VR platform designed to redefine digital experiences with hyper-realistic graphics, seamless user interfaces, and enhanced social interaction features.",
+    "image": "https://images.unsplash.com/photo-1606111197124-71ec337e7dff?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTA2fHxWaXJ0dWFsJTIwUmVhbGl0eXxlbnwwfHwwfHx8MA%3D%3D",
+    "created_at": "2025-03-16T09:15:00Z",
+    "audio_duration": "15 mins 10 secs",
+    "author": {
+      "id": "author-3",
+      "name": "Emily Zhang"
+    },
+    "publisher": {
+      "id": "publisher-3",
+      "name": "VR World"
+    }
+  },
+  {
+    "id": "news-4",
+    "title": "Breakthrough in Renewable Energy: Solar Panels Achieve 50% Efficiency and more Solar Energy",
+    "body": "Scientists have developed solar panels with a record-breaking efficiency of 50%, potentially revolutionizing the energy sector and accelerating the shift toward renewable energy sources.",
+    "image": "https://images.unsplash.com/photo-1558449028-b53a39d100fc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8U29sYXIlMjBlbmVyZ3l8ZW58MHx8MHx8fDA%3D",
+    "created_at": "2025-03-15T11:00:00Z",
+    "audio_duration": "6 mins 30 secs",
+    "author": {
+      "id": "author-4",
+      "name": "Carlos Rivera"
+    },
+    "publisher": {
+      "id": "publisher-4",
+      "name": "GreenTech News"
+    }
+  },
+  {
+    "id": "news-5",
+    "title": "SpaceX Announces Mission to Establish First Lunar Research Base in USA",
+    "body": "SpaceX plans to establish the first lunar research base by 2028, aiming to study lunar resources, conduct scientific experiments, and pave the way for future space colonization.",
+    "image": "https://images.unsplash.com/photo-1711919600878-b5d9e77d3357?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTEyfHxTcGFjZVh8ZW58MHx8MHx8fDA%3D",
+    "created_at": "2025-03-14T08:45:00Z",
+    "audio_duration": "10 mins 50 secs",
+    "author": {
+      "id": "author-5",
+      "name": "Aiden Thompson"
+    },
+    "publisher": {
+      "id": "publisher-5",
+      "name": "Astronomy Today"
+    }
+  },
+  {
+    "id": "news-6",
+    "title": "Global Chip Shortage Ends: Tech Industry Sees Rapid Recovery, Market will be on Rise?",
+    "body": "After years of disruption, the global semiconductor shortage has finally ended, leading to rapid recovery and growth across the tech industry, with reduced costs and increased product availability.",
+    "image": "https://plus.unsplash.com/premium_photo-1683120972279-87efe2ba252f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8Q2hpcHxlbnwwfHwwfHx8MA%3D%3D",
+    "created_at": "2025-03-13T16:20:00Z",
+    "audio_duration": "9 mins 5 secs",
+    "author": {
+      "id": "author-6",
+      "name": "Rachel Kim"
+    },
+    "publisher": {
+      "id": "publisher-6",
+      "name": "Market Watch"
+    }
+  }
+]

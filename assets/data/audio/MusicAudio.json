@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "image": "https://via.placeholder.com/150/FF6B6B/FFFFFF?text=Tech+News",
+    "title": "AI Breakthrough: What It Means for the Future",
+    "description": "Experts discuss the latest advancements in AI and their impact on industries.",
+    "duration": "6 mins 10 secs",
+    "category": "Technology",
+    "bookmark": false
+  },
+  {
+    "id": "2",
+    "image": "https://via.placeholder.com/150/4ECDC4/FFFFFF?text=Health+News",
+    "title": "New Vaccine Approved for Global Use",
+    "description": "Health officials announce the approval of a groundbreaking vaccine.",
+    "duration": "4 mins",
+    "category": "Health",
+    "bookmark": true
+  },
+  {
+    "id": "3",
+    "image": "https://via.placeholder.com/150/45B7D1/FFFFFF?text=Sports+News",
+    "title": "World Cup 2023: Semi-Final Highlights",
+    "description": "Key moments and analysis from the thrilling semi-final matches.",
+    "duration": "9 mins 40 secs",
+    "category": "Sports",
+    "bookmark": false
+  },
+  {
+    "id": "4",
+    "image": "https://via.placeholder.com/150/96CEB4/FFFFFF?text=Business+News",
+    "title": "Stock Market Hits All-Time High",
+    "description": "Investors celebrate as the stock market reaches unprecedented levels.",
+    "duration": "12 mins 20 secs",
+    "category": "Business",
+    "bookmark": true
+  },
+  {
+    "id": "5",
+    "image": "https://via.placeholder.com/150/FFEEAD/000000?text=Entertainment",
+    "title": "Oscar Nominations Announced",
+    "description": "The full list of nominees for the 2023 Academy Awards revealed.",
+    "duration": "6 mins 48 secs",
+    "category": "Entertainment",
+    "bookmark": false
+  },
+  {
+    "id": "6",
+    "image": "https://via.placeholder.com/150/D4A5A5/FFFFFF?text=Environment",
+    "title": "Climate Change Summit: Key Takeaways",
+    "description": "World leaders commit to new targets for reducing carbon emissions by 2030.",
+    "duration": "15 mins 59 secs",
+    "category": "Environment",
+    "bookmark": false
+  },
+  {
+    "id": "7",
+    "image": "https://via.placeholder.com/150/92B4F4/FFFFFF?text=Politics",
+    "title": "Election Results: New Government Formed",
+    "description": "The winning party announces its cabinet and plans for the next term.",
+    "duration": "11 mins",
+    "category": "Politics",
+    "bookmark": true
+  },
+  {
+    "id": "8",
+    "image": "https://via.placeholder.com/150/FFD166/000000?text=Science",
+    "title": "NASA's New Mission to Mars",
+    "description": "NASA unveils plans for a manned mission to Mars by 2035.",
+    "duration": "20 mins 10 secs",
+    "category": "Science",
+    "bookmark": false
+  }
+]
