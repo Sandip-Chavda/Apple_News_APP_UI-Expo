@@ -23,11 +23,11 @@ const FollowingScreen = () => {
         style={{ width: 150, height: 150 }}
         resizeMode="contain"
       />
-      <Image
+      {/* <Image
         source={require("@assets/AppLogo2.png")}
         style={{ width: "100%", height: 45, marginTop: 5 }}
         resizeMode="contain"
-      />
+      /> */}
 
       <Text
         style={{
