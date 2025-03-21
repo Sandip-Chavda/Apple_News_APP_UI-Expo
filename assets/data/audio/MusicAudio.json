@@ -1,73 +1,73 @@
 [
   {
     "id": "1",
-    "image": "https://via.placeholder.com/150/FF6B6B/FFFFFF?text=Tech+News",
+    "image": "https://images.unsplash.com/photo-1706466614149-5e04fd018a49?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QUl8ZW58MHx8MHx8fDA%3D",
     "title": "AI Breakthrough: What It Means for the Future",
     "description": "Experts discuss the latest advancements in AI and their impact on industries.",
-    "duration": "6 mins 10 secs",
+    "duration": "6:10",
     "category": "Technology",
     "bookmark": false
   },
   {
     "id": "2",
-    "image": "https://via.placeholder.com/150/4ECDC4/FFFFFF?text=Health+News",
+    "image": "https://plus.unsplash.com/premium_photo-1664373622422-cf79623ad08d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8VmFjY2luZXxlbnwwfHwwfHx8MA%3D%3D",
     "title": "New Vaccine Approved for Global Use",
     "description": "Health officials announce the approval of a groundbreaking vaccine.",
-    "duration": "4 mins",
+    "duration": "4:00",
     "category": "Health",
     "bookmark": true
   },
   {
     "id": "3",
-    "image": "https://via.placeholder.com/150/45B7D1/FFFFFF?text=Sports+News",
-    "title": "World Cup 2023: Semi-Final Highlights",
+    "image": "https://images.unsplash.com/photo-1554187505-bf7114ee173c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNyaWNrZXQlMjBzdGFkaXVtfGVufDB8fDB8fHww",
+    "title": "World Cup 2025: Semi-Final Highlights",
     "description": "Key moments and analysis from the thrilling semi-final matches.",
-    "duration": "9 mins 40 secs",
+    "duration": "9:40",
     "category": "Sports",
     "bookmark": false
   },
   {
     "id": "4",
-    "image": "https://via.placeholder.com/150/96CEB4/FFFFFF?text=Business+News",
+    "image": "https://plus.unsplash.com/premium_photo-1682310156923-3f4a463610f0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8c3RvY2slMjBtYXJrZXQlMjBoaWdofGVufDB8fDB8fHww",
     "title": "Stock Market Hits All-Time High",
     "description": "Investors celebrate as the stock market reaches unprecedented levels.",
-    "duration": "12 mins 20 secs",
+    "duration": "12:20",
     "category": "Business",
     "bookmark": true
   },
   {
     "id": "5",
-    "image": "https://via.placeholder.com/150/FFEEAD/000000?text=Entertainment",
+    "image": "https://images.unsplash.com/photo-1650240852447-46505dba4726?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fG9zY2FyfGVufDB8fDB8fHww",
     "title": "Oscar Nominations Announced",
-    "description": "The full list of nominees for the 2023 Academy Awards revealed.",
-    "duration": "6 mins 48 secs",
+    "description": "The full list of nominees for the 2024 Academy Awards revealed.",
+    "duration": "16:48",
     "category": "Entertainment",
     "bookmark": false
   },
   {
     "id": "6",
-    "image": "https://via.placeholder.com/150/D4A5A5/FFFFFF?text=Environment",
+    "image": "https://images.unsplash.com/photo-1582721478779-0ae163c05a60?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjAzfHxjbGltYXRlJTIwY2hhbmdlfGVufDB8fDB8fHww",
     "title": "Climate Change Summit: Key Takeaways",
     "description": "World leaders commit to new targets for reducing carbon emissions by 2030.",
-    "duration": "15 mins 59 secs",
+    "duration": "15:59",
     "category": "Environment",
     "bookmark": false
   },
   {
     "id": "7",
-    "image": "https://via.placeholder.com/150/92B4F4/FFFFFF?text=Politics",
+    "image": "https://plus.unsplash.com/premium_photo-1707146617444-c05691cadafe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZWxlY3Rpb24lMjByZXN1bHR8ZW58MHx8MHx8fDA%3D",
     "title": "Election Results: New Government Formed",
     "description": "The winning party announces its cabinet and plans for the next term.",
-    "duration": "11 mins",
+    "duration": "11:00",
     "category": "Politics",
     "bookmark": true
   },
   {
     "id": "8",
-    "image": "https://via.placeholder.com/150/FFD166/000000?text=Science",
+    "image": "https://images.unsplash.com/photo-1585187012083-ddb79575b916?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fE5hc2F8ZW58MHx8MHx8fDA%3D",
     "title": "NASA's New Mission to Mars",
     "description": "NASA unveils plans for a manned mission to Mars by 2035.",
-    "duration": "20 mins 10 secs",
+    "duration": "20:10",
     "category": "Science",
     "bookmark": false
   }

@@ -12,6 +12,9 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import {
   AntDesign,
   Feather,
+  FontAwesome5,
+  FontAwesome6,
+  Ionicons,
   MaterialCommunityIcons,
   MaterialIcons,
 } from "@expo/vector-icons";
@@ -19,6 +22,7 @@ import { Link } from "expo-router";
 import AudioMainNewsCard from "@/components/audio/AudioMainNewsCard";
 import AudioNews from "@assets/data/audio/AudioNews.json";
 import UpNextAudioCard from "@/components/audio/UpNextAudioCard";
+import MusicAudio from "@assets/data/audio/MusicAudio.json";
 
 const AudioScreen = () => {
   const date = new Date();
@@ -154,18 +158,99 @@ const AudioScreen = () => {
           contentContainerStyle={{ gap: 15, paddingHorizontal: 15 }}
         />
 
-        <Text
+        <View
           style={{
             marginTop: 15,
-            marginBottom: 15,
-            color: "#00a6fb",
-            fontSize: 25,
-            fontWeight: "bold",
             paddingHorizontal: 15,
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "center",
           }}
         >
-          Audios to Listen
-        </Text>
+          <Text
+            style={{
+              color: "#00a6fb",
+              fontSize: 25,
+              fontWeight: "bold",
+            }}
+          >
+            Audios to Listen
+          </Text>
+
+          <TouchableOpacity
+            style={{ flexDirection: "row", alignItems: "center", gap: 3 }}
+          >
+            <Text style={{ fontWeight: "500", color: "#00a6fb" }}>
+              Play All
+            </Text>
+            <Feather name="chevron-right" size={20} color={"#00a6fb"} />
+          </TouchableOpacity>
+        </View>
+
+        {MusicAudio.map((music, index) => (
+          <View
+            key={music.id}
+            style={{
+              paddingHorizontal: 5,
+              paddingVertical: 10,
+              marginHorizontal: 15,
+              flexDirection: "row",
+              gap: 10,
+              marginVertical: 10,
+              backgroundColor: "ghostwhite",
+              borderRadius: 12,
+            }}
+          >
+            <Image
+              source={{ uri: music.image }}
+              style={{ height: 100, width: 100, borderRadius: 12 }}
+              // resizeMode="cover"
+            />
+            <View style={{ flex: 1 }}>
+              <Text
+                numberOfLines={2}
+                style={{ fontSize: 16, fontWeight: "bold" }}
+              >
+                {music.title}
+              </Text>
+
+              <Text style={{ color: "gray", marginVertical: 3 }}>
+                {music.category}
+              </Text>
+
+              <View
+                style={{
+                  flexDirection: "row",
+                  alignItems: "center",
+                  justifyContent: "space-between",
+                }}
+              >
+                <View
+                  style={{ flexDirection: "row", alignItems: "center", gap: 4 }}
+                >
+                  <AntDesign name="clockcircleo" color={"gray"} />
+                  <Text style={{ color: "gray" }}>{music.duration}</Text>
+                </View>
+
+                <View style={{ flexDirection: "row", gap: 15 }}>
+                  <TouchableOpacity>
+                    <AntDesign name="playcircleo" size={24} color="#00a6fb" />
+                  </TouchableOpacity>
+
+                  <TouchableOpacity>
+                    <Ionicons
+                      name={music.bookmark ? "bookmark" : "bookmark-outline"}
+                      size={24}
+                      color="#00a6fb"
+                    />
+                  </TouchableOpacity>
+                </View>
+              </View>
+            </View>
+          </View>
+        ))}
+
+        <View style={{ height: 5 }} />
       </ScrollView>
     </SafeAreaView>
   );
