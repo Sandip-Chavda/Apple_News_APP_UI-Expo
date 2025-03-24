@@ -10,19 +10,21 @@
 
 - ## Video
 
+https://github.com/user-attachments/assets/6e5f9e84-70ea-4a33-8952-ad638a29125d
+
 - ## Images
 
 | App Icon | Home Screen | Detailed Article Screen |
 | -------- | ----------- | ----------------------- |
-|          |             |                         |
+| ![App Icon](https://github.com/user-attachments/assets/072a404c-2e1b-430d-b8c5-62758f0f679b) | ![Home Screen](https://github.com/user-attachments/assets/6e7ba2af-a254-4b85-8434-9abb68e95571) | ![Detailed Article Screen](https://github.com/user-attachments/assets/800d6359-96a4-4f48-98dc-a080ac46d5e3) |
 
 | Home Screen 1 | News+ Screen | Sports Screen |
 | ------------- | ------------ | ------------- |
-|               |              |               |
+| ![Home Screen1](https://github.com/user-attachments/assets/68751e6a-64b3-4181-819e-6b20002f0a00) | ![News+ Screen](https://github.com/user-attachments/assets/c878c4b3-3040-40ce-be3a-274ec442bd68) | ![Sports Screen](https://github.com/user-attachments/assets/70c0528f-4810-44df-8009-b947920ce5c4) |
 
 | Audio Screen | Audio Screen1 | Following Screen |
 | ------------ | ------------- | ---------------- |
-|              |               |                  |
+| ![Audio Screen](https://github.com/user-attachments/assets/e1a84f83-3627-4f97-a6a0-694f408e24d4) | ![Audio Screen1](https://github.com/user-attachments/assets/e9bdf07b-48df-47b7-8852-ecc69db6bdf6) | ![Following Screen](https://github.com/user-attachments/assets/73423466-ccc2-4a25-9542-749fff9960f4) |
 
 ## Key Features
 
